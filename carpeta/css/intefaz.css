@@ -1,0 +1,543 @@
+body{
+
+	margin: 0;
+
+
+}
+
+.enlaces{
+
+	height: 60px;
+    background-color: #1B9DCF;
+    position: fixed;
+  	top: 0;
+  	width: 100%;
+  	margin: 0;
+   	padding: 0;
+
+}
+
+.enlaces ul{
+
+	list-style-type: none;
+	display: inline-block;
+	width: 400px;
+	position: relative;
+	left: 800px;
+
+}
+
+.enlaces li{
+
+	margin: 25px;
+	display: inline;
+
+}
+
+.enlaces a{
+
+	display: inline-block;
+	position: relative;
+	color: white;
+	text-decoration: none;
+	transition: all 0.5s ease;
+	transform-style: preserve-3d;
+	font-size: 15px;
+}
+
+.enlaces a {
+
+	display: inline-block;
+	position: relative;
+	color: white;
+	text-decoration: none;
+
+}
+
+.enlaces a:after {
+
+	content: "";
+	display: block;
+	margin: auto;
+	height: 2px;
+	width: 0px;
+	transition: all .3s;
+
+}
+
+.enlaces a:hover:after {
+
+	width: 100%;
+	background: #A0A0A0;
+
+}
+
+.enlaces a:hover{
+
+	color: #8F8F8F;
+}
+
+
+
+
+
+/* ----------------------------------------------------------- */
+
+/* Efecto parallax*/
+.hola2{
+	
+	height: 450px;
+	padding:20px;
+	margin-top: 60px;
+	background-image: url(../img/sg.png);
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+
+}
+
+.hola2 img{
+
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	top: 50px;
+	
+}
+
+.hola2 h2{
+
+	font-family: courier,arial,helvética;
+	font-size: 15;
+	position: absolute;
+	top: 220px;
+	left: 646px;
+	width: 600px;
+	text-align: center;
+	color: white;
+	
+}
+
+.hola2 span{
+	color: #FFC107;
+
+}
+
+
+/* ----------------------------------------------------------------- */
+
+.hola3{
+
+	height: 800px;
+	padding:20px;
+	margin-top: 0px;
+	background: linear-gradient(#1B9DCF, #FFFFFF); /* Da degradado con solo dos parámetros, la cual, solo son dos colores*/
+
+}
+
+
+.hola3 h2{
+
+	font-family: courier,arial,helvética;
+	color: white;
+	width: 300px;
+	position: absolute;
+	left: 470px;
+	top: 520px;
+	text-align: center;
+
+}
+
+.hola3 span{
+
+	color: #FFC107;
+
+}
+
+
+/*Métodos utilizados para la animación del slider*/
+.slider {
+
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+
+}
+
+.slider ul{
+
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation:  cambio 20s infinite alternate;
+	animation-timing-function: ease;
+	
+}
+
+.slider:nth-child(2) ul{
+	animation-timing-function: ease-in;
+}
+
+@keyframes  cambio {
+
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+
+}
+
+
+
+.slider li{
+
+	list-style: none;
+	width: 500%;
+	
+}
+
+.slider img{
+	width: 100%;
+}
+
+.slider a{
+	text-decoration: none;
+}
+
+/* --------------------------------------------------------------- */
+.hola4{
+
+	height: 900px;
+	padding:20px;
+	margin-top: 0px;
+	background-color: white;
+
+}
+
+
+.hola4 h2{
+
+	font-family: courier,arial,helvética;
+	font-size: 30px;
+	color: #3F3F3F;
+	width: 400px;
+	position: absolute;
+	left: 440px;
+	top: 1320px;
+	text-align: center;
+
+}
+
+.hola4 span{
+
+	color: #FFC107;
+
+}
+
+.peli {
+
+	width: 1090px;
+	position: relative;
+	top: 60px;
+	left: 80px;
+}
+
+.peli ul{
+
+	display: inline;
+
+
+}
+
+.peli li{
+
+	list-style: none;
+	display: inline;
+	margin: 20px;
+
+}
+
+
+
+.peli img{
+
+	width: 200px;
+	height: 300px;
+
+}
+
+.peli a{
+
+	text-decoration: none;
+
+}
+
+
+.peli2 {
+
+	width: 1090px;
+	position: relative;
+	top: 160px;
+	left: 80px;
+
+}
+
+.peli2 ul{
+
+	display: inline;
+
+
+}
+
+.peli2 li{
+
+	list-style: none;
+	display: inline;
+	margin: 20px;
+
+}
+
+
+
+.peli2 img{
+
+	width: 200px;
+	height: 300px;
+
+}
+
+.peli2 a{
+
+	text-decoration: none;
+
+}
+
+/* ----------------------------------------------------------------- */
+.hola5 {
+
+	height: 500px;
+	margin-top: 0px;
+	background-image: url(../img/c3.jpeg);
+	background-repeat: no-repeat;
+	opacity: 0.4;
+	padding: auto;
+	
+}
+
+.fondo5 {
+
+	height: 500px;
+	background: linear-gradient(#FFFFFF,#009688);
+	
+
+}
+
+.frase{
+
+	position: relative;
+	top: -320px;
+	left: 500px;
+	width: 300px;
+}
+
+.frase h2{
+
+	color: white;
+	text-align: center;
+	font-family: courier,arial,helvética;
+
+}
+
+/* ------------------------------------------------------- */
+.hola6 {
+
+	height: 1250px;
+	padding:20px;
+	margin-top: 0px;
+	background-color: white;
+
+}
+
+.hola6 h2{
+
+	font-family: courier,arial,helvética;
+	font-size: 30px;
+	color: #3F3F3F;
+	width: 400px;
+	position: relative;
+	left: 430px;
+
+}
+
+.hola6 span{
+
+	color: #FFC107;
+
+}
+
+.cate1 {
+
+	position: relative;
+	top: 20px;
+	left: 200px;
+	width: 1000px;
+
+}
+.cate1 h2{
+
+	position: relative;
+	left: 100px;
+	text-align: left;
+
+}
+
+.cate1 ul{
+
+	display: inline;
+
+}
+
+.cate1 li {
+
+	list-style: none;
+	display: inline;
+	margin: 20px;
+
+}
+
+.cate1 a{
+	text-decoration: none;
+}
+
+.cate1 img{
+	width: 200px;
+	height: 300px;
+}
+
+
+.cate2 {
+
+	position: relative;
+	top: 20px;
+	left: 200px;
+	width: 1000px;
+
+}
+.cate2 h2{
+
+	position: relative;
+	left: 100px;
+	text-align: left;
+	
+}
+
+.cate2 ul{
+
+	display: inline;
+
+}
+
+.cate2 li {
+
+	list-style: none;
+	display: inline;
+	margin: 20px;
+
+}
+
+.cate2 a{
+	text-decoration: none;
+}
+
+.cate2 img{
+	width: 200px;
+	height: 300px;
+}
+
+
+.cate3 {
+
+	position: relative;
+	top: 20px;
+	left: 200px;
+	width: 1000px;
+
+}
+.cate3 h2{
+
+	position: relative;
+	left: 100px;
+	text-align: left;
+	
+}
+
+.cate3 ul{
+
+	display: inline;
+
+}
+
+.cate3 li {
+
+	list-style: none;
+	display: inline;
+	margin: 20px;
+
+}
+
+.cate3 a{
+	text-decoration: none;
+}
+
+.cate3 img{
+	width: 200px;
+	height: 300px;
+}
+
+/* ----------------------------------------------------- */
+.hola7 {
+
+	height:470px;
+	padding:20px;
+	margin-top: 0px;
+	background: linear-gradient(#FFFFFF,#0080BD);
+}
+
+
+/* ----------------------------------------------------- */
+.hola8{
+
+	height: 300px;
+	padding:20px;
+	margin-top: 0px;
+	background-color: #0080BD;
+
+}
+
+.fondo8 img{
+
+	height: 300px;
+	width: 1220px;
+	padding: auto;
+}
+
+
+/* ----------------------------------------------------- */
+.hola9 {
+
+	height: 100px;
+	padding:20px;
+	margin-top: 0px;
+	background: linear-gradient(#0080BD,#0072A8);
+
+
+}
+
