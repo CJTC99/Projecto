@@ -1,0 +1,29 @@
+body{
+
+	margin: 0;
+
+
+}
+
+.fondo{
+
+	background-color: #1B9DCF;
+	width: 100%;
+	height: 700px;
+
+}
+
+.imagenF {
+
+	position: relative;
+	top: 0px;
+	width: 200px;
+	height: 200px;
+
+}
+
+.imagenF img{
+	width: 1260px;
+	height: 700px;
+	opacity: 0.9;
+}
