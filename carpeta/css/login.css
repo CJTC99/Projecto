@@ -74,10 +74,7 @@
 
 }
 .formulario input{
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 4c34de7adca573dd4571202bd4d93bdb2678637b
+
 
 	font-size: 20px;
 	
@@ -92,34 +89,14 @@
 	text-decoration: none;
 	font-size: 15px;
 	transition: all .3s;
-<<<<<<< HEAD
-=======
-=======
-	font-size: 20px;
-}
 
-.formulario a{
-	position: relative;
-	top: 10px;
-	left: 75px;
-	color: #536DFE;
-	text-decoration: none;
-	font-size: 15px;
->>>>>>> a5f1fbcb0a362cea1bf1331e34805d8b66d2951a
->>>>>>> 4c34de7adca573dd4571202bd4d93bdb2678637b
 
 }
 
 .formulario a:hover{
 	color: #D32F2F;
-<<<<<<< HEAD
+
 	transition: all .3s;
-=======
-<<<<<<< HEAD
-	transition: all .3s;
-=======
->>>>>>> a5f1fbcb0a362cea1bf1331e34805d8b66d2951a
->>>>>>> 4c34de7adca573dd4571202bd4d93bdb2678637b
 
 }
 
@@ -140,28 +117,18 @@ input:focus{
 	left: 90px;
 	background-color: #00BCD4;
 	border-radius: 20px;
-<<<<<<< HEAD
+
 	transition: all .3s;
-=======
-<<<<<<< HEAD
-	transition: all .3s;
-=======
->>>>>>> a5f1fbcb0a362cea1bf1331e34805d8b66d2951a
->>>>>>> 4c34de7adca573dd4571202bd4d93bdb2678637b
+
 }
 
 #submit:hover{
 
 	background-color: #303F9F;
 	color: #BDBDBD;
-<<<<<<< HEAD
+
 	transition: all .3s;
-=======
-<<<<<<< HEAD
-	transition: all .3s;
-=======
->>>>>>> a5f1fbcb0a362cea1bf1331e34805d8b66d2951a
->>>>>>> 4c34de7adca573dd4571202bd4d93bdb2678637b
+
 	
 }
 
