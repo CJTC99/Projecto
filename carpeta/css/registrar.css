@@ -1,0 +1,183 @@
+*{
+
+	margin: 0;
+	padding: 0;
+}
+
+
+/*  ---------------------- IMAGEN DE FONDO---------------------------------- */
+
+.fondo{
+
+	background-color:#795548;
+	width: 1263px;
+	height: 605px;
+}
+
+.gi img{
+
+	width: 1263px;
+	height: 603px;
+	opacity: 0.4;
+
+}
+
+/*  -----------------------TARJETA DEL LOGIN--------------------------------- */
+
+.tarjeta{
+
+	position: relative;
+	top: -550px;
+	left: 450px;
+	width: 390px;
+	height: 500px;
+	background-color:#FFFFFF;
+	border-radius: 20px;
+	box-shadow: 6px 6px 12px;
+
+
+}
+
+
+/* --------------------- formulario ------------------------------------- */
+.formulario{
+
+	position: relative;
+	top: 70px;
+	left: 40px;
+}
+
+.formulario h2{
+	position: relative;
+	top: -39px;
+	left: 40px;
+}
+
+.formulario img{
+
+	width: 40px;
+	height: 40px;
+
+
+}
+.formulario input{
+
+	font-size: 20px;
+	
+}
+
+.formulario a{
+
+	position: relative;
+	top: 10px;
+	left: 40px;
+	color: #536DFE;
+	text-decoration: none;
+	font-size: 15px;
+
+}
+
+.formulario a:hover{
+	color: #D32F2F;
+
+}
+
+:required {
+	border-bottom: 3px solid #aa0088;
+	box-shadow: 0 0 2px 1px #7B1FA2;
+
+}
+input:focus{
+	box-shadow: 0 0 2px 1px #aa0088;
+}
+
+.im2{
+
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: -8px;
+	left: -200px;
+}
+
+.im2 img{
+	width: 200px;
+	height: 200px;
+
+}
+
+.im3{
+
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: -208px;
+	left: 390px;
+}
+
+.im3 img{
+	width: 200px;
+	height: 200px;
+
+}
+/* -------------------boton del submit----------------------------- */
+
+#submit {
+	position: relative;
+	top: 50px;
+	left: 90px;
+	background-color: #03A9F4;
+	border-radius: 10px;
+	transition: all .3s;
+
+}
+
+#submit:hover{
+
+	background-color: #303F9F;
+	color: #BDBDBD;
+	transition: all .3s;
+	
+}
+
+/* ------------------ PIE DE PAGINA -------------------------- */
+.footer{
+
+	background-color: #3E3043;
+	width: 1263px;
+	height: 200px;
+
+}
+.footer hr{
+
+	position: relative;
+	top: 120px;
+	left: 445px;
+	width: 420px;
+	border: 0; 
+	height: 12px;
+	box-shadow: inset 0 12px 12px -12px  #BDBDBD;
+
+}
+
+.footer p{
+
+	position: relative;
+	top: 40px;
+	left: 510px;
+	color: #BDBDBD;
+	text-align: center;
+	width: 300px;
+
+}
+
+.footer label{
+	position: relative;
+	top: 80px;
+	left: 490px;
+	color:#BDBDBD;
+}
+
+.footer span{
+	color: #757575;
+}
