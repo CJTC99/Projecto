@@ -7,7 +7,11 @@
 </head>
 
 <meta charset="utf-8">
+<<<<<<< HEAD
 <link rel="stylesheet" type="text/css" href="../css/intefaz.css?v=0.0.30" media="all">
+=======
+<link rel="stylesheet" type="text/css" href="../css/intefaz.css?v=0.0.22" media="all">
+>>>>>>> a5f1fbcb0a362cea1bf1331e34805d8b66d2951a
 
 <body>
 
@@ -30,7 +34,11 @@
 
 
 <!-- Etiqueta en donde se encuentra el slider de las peliculas top-->
+<<<<<<< HEAD
 	<div class="hola3" id="mirara">
+=======
+	<div class="hola3">
+>>>>>>> a5f1fbcb0a362cea1bf1331e34805d8b66d2951a
 		<h2>
 			Peliculas <span> Top </span>
 		</h2>
@@ -68,8 +76,13 @@
 
 
 
+<<<<<<< HEAD
 	<div class="hola4" id="pelii">
 		<h2 >
+=======
+	<div class="hola4">
+		<h2>
+>>>>>>> a5f1fbcb0a362cea1bf1331e34805d8b66d2951a
 			<span> Peliculas </span> recomendadas
 		</h2>
 		<!-- Cacda imagen va a contener su efecto hover con el nombre de la pelicula y simbolo de repoducir -->
@@ -79,7 +92,10 @@
 
 				<a href="">
 					<img src="../img/1.jpg">
+<<<<<<< HEAD
 
+=======
+>>>>>>> a5f1fbcb0a362cea1bf1331e34805d8b66d2951a
 				</a>
 
 			</li>
@@ -112,7 +128,11 @@
 			
 		</div>
 
+<<<<<<< HEAD
 		<!-- Cada imagen va a contener su efecto hover con el nombre de la pelicula y simbolo de repoducir -->
+=======
+		<!-- Cacda imagen va a contener su efecto hover con el nombre de la pelicula y simbolo de repoducir -->
+>>>>>>> a5f1fbcb0a362cea1bf1331e34805d8b66d2951a
 		<div class="peli2">
 
 			<ul>
@@ -174,11 +194,21 @@
 
 	<div class="hola6">
 		<h2>
+<<<<<<< HEAD
 			Todas  las <span> películas </span>
 		</h2>
 
 		<div class="cate1">
 
+=======
+			Todas  las <span> categorías </span>
+		</h2>
+
+		<div class="cate1">
+			<h2>
+				Aventuras
+			</h2>
+>>>>>>> a5f1fbcb0a362cea1bf1331e34805d8b66d2951a
 			<ul>
 				<li>
 					<a href="">
@@ -200,7 +230,13 @@
 		</div>
 
 		<div class="cate2">
+<<<<<<< HEAD
 
+=======
+			<h2>
+				Fantasía
+			</h2>
+>>>>>>> a5f1fbcb0a362cea1bf1331e34805d8b66d2951a
 			<ul>
 				<li>
 					<a href="">
@@ -222,7 +258,13 @@
 		</div>
 
 		<div class="cate3">
+<<<<<<< HEAD
 
+=======
+			<h2>
+				Recuentos de la vida
+			</h2>
+>>>>>>> a5f1fbcb0a362cea1bf1331e34805d8b66d2951a
 			<ul>
 				<li>
 					<a href="">
@@ -256,6 +298,7 @@
 			<img src="../img/kawaii.jpeg">
 		</div>
 
+<<<<<<< HEAD
 		<div class="fondo9">
 
 			<a href="">
@@ -287,12 +330,20 @@
 	</label>
 		
 </div>
+=======
+	</div>
+
+	<div class="hola9">
+		
+	</div>
+>>>>>>> a5f1fbcb0a362cea1bf1331e34805d8b66d2951a
 
 
 
 
 
 	<!-- Menu de los enlaces (sidebar horizontal fijo) -->
+<<<<<<< HEAD
 	
 	<div class="enlaces">
 
@@ -301,20 +352,36 @@
 		<ul>
 			<li>
 				<a href="#">
+=======
+	<div class="enlaces">
+
+
+		<ul>
+			<li>
+				<a href="">
+>>>>>>> a5f1fbcb0a362cea1bf1331e34805d8b66d2951a
 
 					Inicio
 
 				</a>
 			</li>
 			<li>
+<<<<<<< HEAD
 				<a href="#pelii">
+=======
+				<a href="">
+>>>>>>> a5f1fbcb0a362cea1bf1331e34805d8b66d2951a
 
 					Películas
 
 				</a>
 			</li>
 			<li>
+<<<<<<< HEAD
 				<a href="#mirara">
+=======
+				<a href="">
+>>>>>>> a5f1fbcb0a362cea1bf1331e34805d8b66d2951a
 
 					Mirar enlinea
 
@@ -324,6 +391,7 @@
 
 	</div>
 
+<<<<<<< HEAD
 	<div class="enlaces2">
 		<input type="text" name="" placeholder="Buscar pelicula por título">
 
@@ -344,6 +412,8 @@
 	</div>
 
 
+=======
+>>>>>>> a5f1fbcb0a362cea1bf1331e34805d8b66d2951a
 	
 </body>
 </html>

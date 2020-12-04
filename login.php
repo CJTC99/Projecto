@@ -6,7 +6,11 @@
 	</title>
 </head>
 <meta charset="utf-8">
+<<<<<<< HEAD
 <link rel="stylesheet" type="text/css" href="./carpeta/css/login.css?v=0.0.15" media="all">
+=======
+<link rel="stylesheet" type="text/css" href="./carpeta/css/login.css?v=0.0.10" media="all">
+>>>>>>> a5f1fbcb0a362cea1bf1331e34805d8b66d2951a
 <body>
 
 
@@ -28,7 +32,11 @@
   			<img src="./carpeta/img/contrasena.png">
   			<input type="password" id="email" name="email" placeholder="Contraseña" required="">
   			<br>
+<<<<<<< HEAD
   			<a href="./carpeta/html/registrar.php" target="_blank">¿No tienes una?, ¡Registrate ahora!</a>
+=======
+  			<a href="">¿Olvidaste tu contraseña?</a>
+>>>>>>> a5f1fbcb0a362cea1bf1331e34805d8b66d2951a
   			<br>
   			<input type="submit" value="Iniciar sesión" id="submit">
   			
