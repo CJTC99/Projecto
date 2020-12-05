@@ -6,7 +6,6 @@ body{
 }
 
 .fondo{
-
 	background-color: #1B9DCF;
 	width: 100%;
 	height: 700px;
@@ -26,4 +25,41 @@ body{
 	width: 1260px;
 	height: 700px;
 	opacity: 0.9;
+}
+
+.tarjeta{
+
+	position: relative;
+	top: -550px;
+	left: 450px;
+	width: 390px;
+	height: 500px;
+	background-color:#FFFFFF;
+	border-radius: 20px;
+	box-shadow: 6px 6px 12px;
+
+
+}
+
+
+/* --------------------- formulario ------------------------------------- */
+.formulario{
+
+	position: relative;
+	top: 70px;
+	left: 40px;
+}
+
+.formulario h2{
+	position: relative;
+	top: -39px;
+	left: 40px;
+}
+
+.formulario img{
+
+	width: 40px;
+	height: 40px;
+
+
 }

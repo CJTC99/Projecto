@@ -1,3 +1,11 @@
+<?php 
+
+	if (!isset($_SESSION)) {
+		session_start();
+	}
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,7 +15,7 @@
 </head>
 
 <meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="../css/registrar.css?v=0.0.14" media="all">
+<link rel="stylesheet" type="text/css" href="../css/registrar.css?v=0.0.16" media="all">
 <body>
 
 
@@ -24,30 +32,21 @@
 				¡Registrate ahora! 
 			</h2>
 
-			<form action="POST">
+			<form action="../app/authController.php" method="POST">
 
-				<input type="text" name="" placeholder="Nombre" required=""><br><br>
-				<input type="text" name="" placeholder="Apellidos" required=""><br><br>
-				<input type="email" name="" placeholder="Email" required=""><br><br>
-				<select >
-					<option>
-						Ningungo de esas opciones
-					</option>
-					<option>
-						México
-					</option>
-					<option>
-						Estados Unidos
-					</option>
-					<option>
-						Canada
-					</option>
+				<label></label>
+				<input type="text" name="nombre" placeholder="Nombre" required=""><br><br>
+				<input type="text" name="apellidos" placeholder="Apellidos" required=""><br><br>
+				<input type="email" name="correo" placeholder="Email" required=""><br><br>
 
-				</select><br><br><br>
-				<input type="text" name="" placeholder="Número celular" required=""><br><br><br>
+				<input type="password" name="contraseña" placeholder="* * * * *" required=""><br><br><br>
 				<label for="start">Fecha de nacimiento:  </label>
 				<input type="date" id="start" name="trip-start" value="2020-12-03" min="1970-01-01" max="2030-12-31">
-				<input type="submit" value="Registrarse" id="submit">
+				<br>
+				<button type="submit">
+					Registrar
+				</button>
+				<input type="hidden" name="action" value="register">
 				
 	
   			

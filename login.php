@@ -1,3 +1,12 @@
+<?php 
+
+	if (!isset($_SESSION)) {
+		session_start();
+	}
+
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,7 +16,7 @@
 </head>
 <meta charset="utf-8">
 
-<link rel="stylesheet" type="text/css" href="./carpeta/css/login.css?v=0.0.15" media="all">
+<link rel="stylesheet" type="text/css" href="./carpeta/css/login.css?v=0.0.18" media="all">
 
 <body>
 
@@ -22,17 +31,20 @@
 
 		<div class="formulario">
 
-			<form action="">
+			<form action="../app/authController.php" method="POST">
 
 			<img src="./carpeta/img/totoro2.png">
-  			<input type="email" id="email" name="email" placeholder="Email" required="">
+  			<input type="email" id="email" name="correo" placeholder="Email" required="">
   			<br><br>
   			<img src="./carpeta/img/contrasena.png">
-  			<input type="password" id="email" name="email" placeholder="Contraseña" required="">
+  			<input type="password" id="email" name="contraseña" placeholder="Contraseña" required="">
   			<br>
   			<a href="./carpeta/html/registrar.php" target="_blank">¿No tienes una?, ¡Registrate ahora!</a>
   			<br>
-  			<input type="submit" value="Iniciar sesión" id="submit">
+  			<button type="submit" id="submit">
+  				Ingresar
+  			</button>
+  			<input type="hidden" name="action" value="access" >
   			
 
 		</form>
