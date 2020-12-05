@@ -6,7 +6,6 @@
 	 	} 
 
 	 	include_once "connectionController.php";
-
 if (isset($_POST['action'])) {
 	$authController = new AuthController();
 
@@ -78,7 +77,7 @@ class AuthController{
 						$_SESSION['nombre'] = $user['nombre'];
 						$_SESSION['correo'] = $user['correo'];
 
-						header("Location: ../carpeta/html/interfaz.php");
+						header("Location: ../html/interfaz.php");
 					}
 
 				}else{
